@@ -5,7 +5,7 @@ Elevator Controller Variations
 
 ECE 281, M6 Dr Neebel
 
-Moore Machine
+Pre-Lab
 ===========
 
 ![Prelab Schematic](https://github.com/KyleJonas/ECE281_Lab3/blob/master/Prelab_Schematic.PNG?raw=true "Image")
