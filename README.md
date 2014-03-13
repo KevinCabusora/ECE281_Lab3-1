@@ -19,3 +19,11 @@ Pre-Lab
 [Nibble_to_sseg](https://github.com/KyleJonas/ECE281_Lab3/blob/master/nibble_to_sseg.vhd)
 
 [pinout](https://github.com/KyleJonas/ECE281_CE3/blob/master/MooreElevatorController_Shell.vhd)
+
+
+
+Demo
+===========
+Moore
+
+Prime Numbers
