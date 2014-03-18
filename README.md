@@ -21,9 +21,45 @@ Pre-Lab
 [pinout](https://github.com/KyleJonas/ECE281_CE3/blob/master/MooreElevatorController_Shell.vhd)
 
 
+Main Lab
+===========
+
+Bad Code
+===========
+`
+-- nibble0 <= ;
+-- nibble1 <= ;
+nibble2 <= "0000";
+nibble3 <= "0000";
+`
+
+Good Code
+===========
+`
+nibble0 <= floorSignal;
+nibble1 <= nextFloor;
+nibble2 <= "0000";
+nibble3 <= "0000";
+`
 
 Demo
 ===========
-Moore
+Basic
+* Moore:
+* Mealy:
 
-Prime Numbers
+B Functionality
+* More Floors (Prime Numbers):
+* Change Inputs (7 Floors):
+
+A Functionality
+* Moving Lights:
+* Multiple Elevators:
+
+
+Documentation
+===========
+
+I got help from C3C Her to show me where I had an error in the MealyElevatorController_Shell for 7 floors.
+
+
