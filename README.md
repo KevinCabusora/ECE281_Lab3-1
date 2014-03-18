@@ -26,6 +26,7 @@ Main Lab
 
 Bad Code
 ===========
+I orrigionally did not initialize a value for nibble0 and nibble1. This caused display issues and wouldn't let the code compile correctly. 
 ```
 -- nibble0 <= ;
 -- nibble1 <= ;
@@ -35,6 +36,7 @@ nibble3 <= "0000";
 
 Good Code
 ===========
+By initialize each of the nibbles I was able to assign a variable or a zero to each of the seven segment displays.
 ```
 nibble0 <= floorSignal;
 nibble1 <= nextFloor;
