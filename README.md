@@ -26,21 +26,21 @@ Main Lab
 
 Bad Code
 ===========
-`
+```
 -- nibble0 <= ;
 -- nibble1 <= ;
 nibble2 <= "0000";
 nibble3 <= "0000";
-`
+```
 
 Good Code
 ===========
-`
+```
 nibble0 <= floorSignal;
 nibble1 <= nextFloor;
 nibble2 <= "0000";
 nibble3 <= "0000";
-`
+```
 
 Demo
 ===========
