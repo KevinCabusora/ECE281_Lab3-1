@@ -55,8 +55,8 @@ B Functionality
 * Change Inputs (7 Floors):
 
 A Functionality
-* Moving Lights:
-* Multiple Elevators:
+* Moving Lights: Not Demoed
+* Multiple Elevators: Not Demoed
 
 
 Documentation
