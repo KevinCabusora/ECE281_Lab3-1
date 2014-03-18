@@ -186,7 +186,7 @@ LED <= CLOCKBUS_SIG(26 DOWNTO 19);
 --Instantiate the design you with to implement below and start wiring it up!:
 -----------------------------------------------------------------------------
 
---	MealyElevatorController: MealyElevatorController_Shell PORT MAP(
+--	MooreElevatorController: MealyElevatorController_Shell PORT MAP(
 --		clk => ClockBus_sig(25),
 --		reset => switch(7),
 --		stop => switch(1),
