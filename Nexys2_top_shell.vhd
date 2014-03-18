@@ -186,20 +186,20 @@ LED <= CLOCKBUS_SIG(26 DOWNTO 19);
 --Instantiate the design you with to implement below and start wiring it up!:
 -----------------------------------------------------------------------------
 
---Inst_MealyElevatorController_Shell: MealyElevatorController_Shell PORT MAP(
+--	MealyElevatorController_Shell: MealyElevatorController_Shell PORT MAP(
 --		clk => ClockBus_sig(25),
---		reset => btn(3),
---		stop => btn(0) ,
---		up_down => btn(1),
+--		reset => switch(7),
+--		stop => switch(1),
+--		up_down => switch(0),
 --		floor => floorSignal
 --	);
 
 
-Inst_MealyElevatorController_Shell: MealyElevatorController_Shell PORT MAP(
+	MealyElevatorController_Shell: MealyElevatorController_Shell PORT MAP(
 		clk => ClockBus_sig(25),
-		reset => btn(3),
-		stop => btn(0) ,
-		up_down => btn(1),
+		reset => switch(7),
+		stop => switch(1) ,
+		up_down => switch(0),
 		floor => floorSignal,
 		nextfloor => nextFloor
 	);
